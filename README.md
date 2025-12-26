@@ -1,7 +1,7 @@
 # Bayesian Modeling of Neonatal Mortality
 *Interpretable risk factors in small clinical datasets*
-
 **Author:** Imose Iduozee
+**Full project write-up:** [View PDF](project_writeup.pdf)
 
 ## Project Overview
 This project applies **Bayesian logistic regression** to identify key clinical risk factors associated with neonatal mortality in very low birth-weight infants. Using a small, noisy healthcare dataset, the analysis compares **pooled** and **sex-stratified hierarchical models** to evaluate whether mortality risk differs by sex and whether increased model complexity improves inference.
