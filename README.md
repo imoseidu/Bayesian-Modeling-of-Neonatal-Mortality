@@ -1,6 +1,8 @@
 # Bayesian Modeling of Neonatal Mortality
 *Interpretable risk factors in small clinical datasets*
+
 **Author:** Imose Iduozee
+
 **Full project write-up:** [View PDF](PROJECT.pdf)
 
 ## Project Overview
