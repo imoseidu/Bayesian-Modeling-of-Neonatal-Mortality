@@ -1,0 +1,10 @@
+# Ignore everything in data
+data/*
+
+# But allow this clean dataset
+!data/vlbw_clean.csv
+
+.DS_Store
+.Rhistory
+.RData
+
