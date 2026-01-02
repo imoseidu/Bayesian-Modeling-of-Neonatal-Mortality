@@ -20,7 +20,7 @@ This mirrors real-world analytics scenarios where data is incomplete, high-stake
 To reproduce the full analysis, run:
 
 ```r
-source("RUN_all.r")
+source("run_all.r")
 ```
 
 ---
