@@ -15,6 +15,14 @@ Rather than optimizing a single predictive model, this project emphasizes:
 
 This mirrors real-world analytics scenarios where data is incomplete, high-stakes, and costly to collect.
 
+## Reproducing the Analysis
+
+To reproduce the full analysis, run:
+
+```r
+source("RUN_all.r")
+```
+
 ---
 
 ## Problem Statement
@@ -33,7 +41,7 @@ Observed mortality counts grouped by sex motivated comparison between pooled and
 - **Source:** Publicly available *Very Low Birth Weight Infants* dataset (Duke University Medical Center)
 - **Time period:** 1981–1987
 - **Initial size:** 671 infants
-- **Final analyzed subset:** 174 infants (after data cleaning)
+- **Final analyzed subset:** 481 infants (after data cleaning)
 - **Outcome variable:** Neonatal mortality (binary)
 
 ### Key Predictors
@@ -101,7 +109,7 @@ Non-hierarchical model vs hierarchical model of PSIS-LOO diagnostics showing abs
 - **Birth weight and platelet count** were strongly associated with neonatal mortality
 - **Pneumothorax and IVH** substantially increased mortality risk
 - Introducing sex as a hierarchical grouping factor did **not** meaningfully improve predictive performance
-- Both models achieved approximately **93% classification accuracy**, interpreted cautiously due to class imbalance and small sample size
+- Both models achieved approximately **85% classification accuracy**, interpreted cautiously due to class imbalance and small sample size
 - PSIS-LOO showed negligible differences between pooled and hierarchical models
 
 **Main insight:** Early neonatal mortality risk in this dataset is dominated by clinical factors rather than sex-specific baseline differences.
