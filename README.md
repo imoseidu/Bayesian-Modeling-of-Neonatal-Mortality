@@ -13,7 +13,7 @@ Rather than optimizing a single predictive model, this project emphasizes:
 - Explicit uncertainty quantification
 - Robust validation under data limitations
 
-This mirrors real-world analytics scenarios where data is incomplete, high-stakes, and costly to collect.
+This mirrors real world analytics scenarios where data is incomplete and costly to collect.
 
 ## Reproducing the Analysis
 
@@ -26,7 +26,7 @@ source("run_all.r")
 ---
 
 ## Problem Statement
-Neonatal mortality remains a major public health concern, particularly among very low birth-weight infants. Clinicians rely on multiple indicators—such as birth weight, platelet count, and respiratory complications—to assess mortality risk.
+Neonatal mortality remains a major public health concern, particularly among very low birth-weight infants. Clinicians rely on multiple indicators, such as birth weight, platelet count, and respiratory complications to assess mortality risk.
 
 However, clinical datasets are often small, heterogeneous, and incomplete, making traditional modeling approaches unstable or overconfident. This project explores how **Bayesian modeling** can extract meaningful risk signals while accounting for uncertainty.
 
@@ -143,4 +143,4 @@ With larger or more recent datasets, future work could explore:
 ---
 
 ## Key Takeaway
-This project demonstrates how Bayesian modeling and careful validation can support **interpretable, uncertainty-aware analysis** in small and high-stakes healthcare datasets—prioritizing reliable insight over raw predictive performance.
+This project demonstrates how Bayesian modeling and careful validation can support **interpretable, uncertainty-aware analysis** in small and high-stakes healthcare datasets, prioritizing reliable insight over raw predictive performance.
