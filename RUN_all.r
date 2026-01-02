@@ -1,0 +1,6 @@
+source("code/data_load.r")
+source("code/data_cleaning.r")
+source("code/EDA.r")
+source("code/pooled_model.r")
+source("code/hierarchical_model + LOO.r")
+source("code/accuracy.r")
